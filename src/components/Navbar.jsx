@@ -1,17 +1,17 @@
 import SearchContact from "./Contact/SearchContact";
-import { Purple, Background } from "../helpers/colors.js";
+import { PURPLE, BACKGROUND } from "../helpers/colors.js";
 const Navbar = () => {
   return (
     <nav
       className="navbar navbar-dark navbar-expand-sm shadow-lg"
-      style={{ backgroundColor: Background }}
+      style={{ backgroundColor: BACKGROUND }}
     >
       <div className="container">
         <div className="row w-100">
           <div className="col">
             <div className="navbar-brand">
-              <i className="fas fa-id-badge" Style={{ color: Purple }} />{" "}
-              <span style={{ color: Purple }}>Contact</span> Management
+              <i className="fas fa-id-badge" Style={{ color: PURPLE }} />{" "}
+              <span style={{ color: PURPLE }}>Contact</span> Management
               Application
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { Purple } from "../../helpers/colors.js";
+import { PURPLE } from "../../helpers/colors.js";
 
 const SearchContact = () => {
   return (
@@ -6,7 +6,7 @@ const SearchContact = () => {
       <span
         className="input-group-text"
         id="basic-addon1"
-        style={{ backgroundColor: Purple }}
+        style={{ backgroundColor: PURPLE }}
       >
         <i className="fas fa-search" />
       </span>
