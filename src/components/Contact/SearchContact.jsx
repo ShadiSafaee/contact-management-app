@@ -1,4 +1,4 @@
-import { Purple, Comment } from "../../helpers/colors.js";
+import { Purple } from "../../helpers/colors.js";
 
 const SearchContact = () => {
   return (
@@ -12,7 +12,6 @@ const SearchContact = () => {
       </span>
       <input
         type="text"
-        style={{ backgroundColor: Comment, borderColor: Purple }}
         className="form-control"
         placeholder="search contact..."
         aria-label="Search"
