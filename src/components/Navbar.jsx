@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="row w-100">
           <div className="col">
             <div className="navbar-brand">
-              <i className="fas fa-id-badge" Style={{ color: PURPLE }} />{" "}
+              <i className="fa fa-id-badge" Style={{ color: PURPLE }} />{" "}
               <span style={{ color: PURPLE }}>Contact</span> Management
               Application
             </div>
